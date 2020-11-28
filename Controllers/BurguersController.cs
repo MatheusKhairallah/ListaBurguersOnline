@@ -19,6 +19,7 @@ namespace ListaBurguersOnline.Controllers
         public List<Burguer> Get()
         {
             var listaBurguer= _db.Burguer
+                .OrderBy(i=> i.Nome)
                 .ToList();
             
             return listaBurguer;
