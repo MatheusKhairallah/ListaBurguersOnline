@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'listaburguers'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_061a2354e2dd40bc889553433949c636 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_b62368dcf1104b93ba32fcafb7ad2fc1 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
